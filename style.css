@@ -1,0 +1,91 @@
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(211, 147, 236);
+}
+
+.mother-container div img{
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    
+}
+.menu-bar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    background-color: rgb(211, 147, 236);
+}
+.menu-bar li{
+    display: inline;
+    padding: 20px;
+    
+}
+
+
+.menu-bar li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(248, 248, 248);
+}
+
+.menu-bar li a:hover{
+    color: black;
+}
+.mother-container div h1{
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    font-family: 'Gochi Hand', cursive;
+}
+
+
+.mother-container{
+    background-color: rgb(187, 138, 234);
+   
+    position: relative;
+   
+}
+
+.polaroid-art{
+    position: absolute;
+    left: 40%;
+    top: 90px;
+
+}
+.polaroid-code{
+    position: absolute;
+    top: 110px;
+    right: 35%;
+}
+.polaroid-contact{
+    position: absolute;
+    top: 250px;
+    left: 30%;
+}
+
+.polaroid-information{
+    position: absolute;
+    right: 20%;
+    top: 200px;
+}
+
+.mother-container div{
+    height: 400px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+}
+
+.mother-container div:hover{
+    z-index: 555;
+
+}
