@@ -1,0 +1,323 @@
+/*about me*/
+
+#info_about_me{
+    background-color: antiquewhite;
+    width: 60%;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+
+
+}
+
+#info_about_me h1{
+    font-family: 'Gochi Hand', cursive;
+    margin: 0 auto;
+}
+
+#info_picture{
+    width: 70%;
+    height: 60%;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+    border-radius: 70%;
+    position: relative;
+   
+}
+
+
+
+
+
+#contact{
+    background-color: antiquewhite;
+    width: 60%;
+   
+    display: block;
+    position: fixed;
+    top: 25%;
+    left: 15%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+
+}
+
+
+#video-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
+}
+
+#video-container div{
+    
+    display: block;
+    margin: 5px;
+    
+}
+
+#video-container div video{
+    left: 20%;
+    border-radius: 25px;
+    width: 80%;
+    border: 2px solid salmon;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.case-story{
+    width: 80%;
+    height: 90%;
+    background-color: blanchedalmond;
+     box-shadow: 0 12px 8px 0 rgba(0,0,0,0.2);
+     border-radius: 3px;
+     padding: 5px;
+    
+     font-size: 20px;
+
+}
+.case-story button a{
+    text-decoration: none;
+}
+
+.case-story button{
+    background-color: aquamarine;
+    padding: 15px;
+    border-radius: 13px;
+    color: black;
+}
+
+
+
+
+
+
+
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(109, 169, 228);
+}
+
+.mother-container div img{
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    
+}
+.menu-bar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    background-color: rgb(173, 228, 219);
+}
+.menu-bar li{
+    display: inline;
+    padding: 20px;
+    
+}
+
+
+.menu-bar li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(248, 248, 248);
+}
+
+.menu-bar li a:hover{
+    color: black;
+}
+.mother-container div h1{
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    font-family: 'Gochi Hand', cursive;
+}
+
+
+.mother-container{
+    background-color: rgb(187, 138, 234);
+   
+    position: relative;
+   
+}
+
+.polaroid-art{
+    position: absolute;
+    left: 40%;
+    top: 90px;
+
+}
+#polaroid-code{
+    position: absolute;
+    top: 110px;
+    right: 35%;
+}
+.polaroid-contact{
+    position: absolute;
+    top: 250px;
+    left: 30%;
+}
+
+.polaroid-information{
+    position: absolute;
+    right: 20%;
+    top: 200px;
+}
+
+.polaroid-snow{
+    position: absolute;
+    left: 15%;
+    top: 200px;
+
+}
+
+.polaroid-pokemon{
+    position: absolute;
+    right: 10%;
+    top: 250px;
+}
+
+.polaroid-dogs{
+    position: absolute;
+    right: 50%;
+    top: 180px;
+}
+
+.mother-container div{
+    height: 400px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+}
+
+.mother-container div:hover{
+    z-index: 555;
+
+}
+
+
+@media (min-width: 480px) {
+    .case-story{
+        width: 80%;
+        height: 250px;
+        background-color: blanchedalmond;
+         box-shadow: 0 12px 8px 0 rgba(0,0,0,0.2);
+         border-radius: 3px;
+         padding: 5px;
+        
+         font-size: 20px;
+    
+    }
+
+
+    #contact{
+        background-color: antiquewhite;
+        width: 30%;
+       
+        display: block;
+        position: fixed;
+        top: 25%;
+        left: 30%;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        text-align: center;
+        border: 2px solid whitesmoke;
+        padding: 20px;
+    
+    }
+    
+    
+
+   
+  }
+
+  @media (max-width: 480px) {
+
+
+.polaroid-art{
+    position: absolute;
+    left: 40%;
+    top: 500px;
+
+}
+#polaroid-code{
+    position: absolute;
+    top: 80px;
+    right: 1%;
+}
+.polaroid-contact{
+    position: absolute;
+    top: 250px;
+    left: 40%;
+}
+
+.polaroid-information{
+    position: absolute;
+    right: 20%;
+    top: 600px;
+}
+
+.polaroid-snow{
+    position: absolute;
+    left: 15%;
+    top: 170px;
+
+}
+
+.polaroid-pokemon{
+    position: absolute;
+    right: 10%;
+    top: 250px;
+}
+
+.polaroid-dogs{
+    position: absolute;
+    right: 50%;
+    top: 180px;
+}
+
+
+
+#info_about_me{
+    background-color: antiquewhite;
+    width: 60%;
+   
+    display: block;
+    position: fixed;
+   
+    left: 15%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 20px;
+
+
+}
+
+  }
